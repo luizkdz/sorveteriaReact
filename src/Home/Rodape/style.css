@@ -1,0 +1,45 @@
+.rodape{
+    background-color: black;
+    color:white;
+}
+.container-rodape{
+    display:flex;
+    justify-content: space-around;
+}
+
+.area-texto-rodape{
+    
+    display:flex;
+}
+
+.informacoes-rodape{
+    text-align: center;
+    margin:20px;
+}
+
+.container-rodape img{
+    width:100px;
+}
+
+.desenvolvido-por{
+    text-align: center;
+}
+
+@media (max-width:662px){
+.container-rodape{
+        align-items: center;   
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+
+
+
+    .area-texto-rodape{
+        align-items: center;   
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    } 
+

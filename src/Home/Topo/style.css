@@ -1,0 +1,30 @@
+.topo img{
+    width:150px;
+}
+
+.topo ul{
+    display:flex;
+    list-style:none;
+}
+
+.topo li{
+    margin:20px;
+}
+
+.topo {
+    background-color: rgb(249, 219, 121);
+    display:flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media (max-width: 600px) {
+    .topo {
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+}
